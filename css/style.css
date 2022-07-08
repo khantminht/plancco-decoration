@@ -431,6 +431,102 @@ ul.clientlists li:hover{
 }
 /* End Customer Section */
 
+/* Start Request Quote */
+.qutoes{
+	background-color: var(--secondary-color);
+	padding: 30px 50px;
+	margin: -30px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.qutoes .infos{
+	display: flex;
+	justify-content: space-between;
+}
+
+.qutoes .btn-calls{
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 50px;
+	background-color: var(--primary-color);
+	border: 0;
+	border-radius: 100px;
+
+	padding: 0;
+	transform: translateY(-1px);
+
+	transition: all 0.3s;
+}
+
+.qutoes .btn-calls:hover{
+	box-shadow: -3px 3px 3px #444;
+	transform: translateY(0px);
+}
+
+@media (max-width:768px){
+	.phoneicon{
+		width: 50px;
+	}
+}
+/* End Request Quote */
+
+/* Start Furnitrue Service */
+.furicons img{
+	width: 70px;
+}
+
+.furicons div:nth-of-type(even){
+	background: #e1e1e1;
+}
+/* End Furniture Service */
+
+/* Start Contact Section */
+
+.contacts{
+	background-image: url(./../assets/img/banner/banner3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.contacts .inputs{
+	color: #fff;
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #ccc;
+	
+	transition: all 0.3s;
+}
+
+.contacts .inputs:focus{
+	/* outline: none; */
+	/* border-color: transparent; */
+	box-shadow: none;
+	border-bottom: 2px solid var(--primary-color);
+	
+}
+
+.submit-btn{
+	color: #fff;
+	background-color: var(--primary-color);
+	border: none;
+
+	transition: background-color 0.3s ;
+}
+
+.submit-btn:hover{
+	color: #fff;
+	background-color: var(--secondary-color);
+}
+/* End Contact Section */
 
 
 
