@@ -76,7 +76,7 @@ header{
 }
 
 .menuitems:active{
-	transform: scale(1.2);
+	transform: scale(1);
 }
 
 .lines1, .lines2, .lines3{
@@ -378,8 +378,7 @@ header{
 .clientlists{
 	list-style: none;
 	padding: 0;
-	margin: ;
-
+	
 	display: flex;
 	justify-content: center;
 }
@@ -417,6 +416,20 @@ ul.clientlists li:hover{
 }
 /*End Client Section*/
 
+
+/* Start Customer Section */
+.customers{
+	background: linear-gradient(
+		rgba(0,0,0,0),
+		rgba(0,0,0,1)
+	),url("../assets/img/banner/banner3.jpg");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* End Customer Section */
 
 
 
