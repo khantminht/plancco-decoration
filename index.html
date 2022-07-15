@@ -24,6 +24,12 @@
 
 <body>
 
+	<!-- Start Back to Top -->
+	<div class="fixed-bottom">
+		<a href="#" class="btn-backtotops"><i class="fas fa-arrow-up"></i></a>
+	</div>
+	<!-- End Back to Top -->
+
 	<!-- Start Header Section -->
 	<header>
 		
@@ -556,30 +562,32 @@
 		<div class="container-fluid">
 
 			<div class="col-lg-5">
-				<h5 class="display-6">Get the latest informations</h5>
+				<h5 class="display-6 text-light">Get the latest informations</h5>
 
 				<form class="" action="" method="">
 
-					<div class="form-group">
-						<label for="name">Name</label>
-						<input type="text" name="name" id="name" class="form-control inputs" placeholder="Enter Your Name" autocomplete="off">
+					<div class="form-group py-3">
+						
+						<input type="text" name="name" id="name" class="form-control py-2 inputs" placeholder="Enter Your Name" autocomplete="off">
+						<label class="text-white labels" for="name">Name</label>
 					</div>
 
-					<div class="form-group">
-						<label for="email">Email</label>
-						<input type="text" name="email" id="email" class="form-control inputs" placeholder="Enter Your Email" autocomplete="off">
+					<div class="form-group my-5 py-3">
+						
+						<input type="text" name="email" id="email" class="form-control py-2 inputs" placeholder="Enter Your Email" autocomplete="off">
+						<label class="text-white labels" for="email">Email</label>
 					</div>
 
-					<div>
+					<div class="my-3">
 						<div class="form-check form-switch">
 							<input type="checkbox" name="accept" id="accept" class="form-check-input">
 
-							<label for="accept">I agree to get push notify</label>
+							<label for="accept" class="text-light">I agree to get push notify</label>
 						</div>
 					</div>
 
-					<div class="d-grid">
-						<button type="submit" class="submit-btn text-uppercase rounded-0">Subscribe</button>
+					<div class="d-grid my-3">
+						<button type="submit" class="submit-btn text-uppercase rounded-2 py-2">Subscribe</button>
 					</div>
 
 				</form>
@@ -587,6 +595,61 @@
 		</div>
 	</section>
 	<!-- End Contact Section -->
+
+	<!-- Start Footer -->
+	<footer class="bg-dark px-5">
+		<div class="container-fluid">
+			<div class="row text-light py-4">
+
+				<div class="col-md-3 col-sm-6">
+					<h5 class="mb-3"><img src="./assets/img/fav/favicon.png" width="70px" alt="logo"> About PLANNCO</h5>
+					<p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+
+				<div class="col-md-3 col-sm-6 text-center">
+					<h5 class="my-3">Visit Us</h5>
+					<ul class="list-unstyled">
+						<li><a href="index.html" class="footerlinks">Home</a></li>
+						<li><a href="#about" class="footerlinks" >About Us</a></li>
+						<li><a href="#properties" class="footerlinks">Properties</a></li>
+						<li><a href="#services" class="footerlinks">Service</a></li>
+						<li><a href="#customer" class="footerlinks">Customers</a></li>
+						<li><a href="#furniture" class="footerlinks">Pricing</a></li>
+						<li><a href="#contact" class="footerlinks">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 col-sm-6 text-center">
+					<h5 class="my-3">Need Help?</h5>
+					<ul class="list-unstyled">
+						<li><a href="#" class="footerlinks">Customer Services</a></li>
+						<li><a href="#" class="footerlinks">Online Chat</a></li>
+						<li><a href="#" class="footerlinks">Support</a></li>
+						<li><a href="#" class="footerlinks">Info@plancco.com</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<h5 class="my-3 text-center">Contact Us</h5>
+					<ul class="list-unstyled" >
+						<li><a href="#" class="footerlinks">l-9/19(A),60street, Between Theik Pan Street And Aung San st, Mandalay.</a></li>
+						<li><a href="#" class="footerlinks">Hotline: +95 9448154608 </a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="text-light border-top d-flex justify-content-between pt-4">
+				<p>&copy; <span id="getyear"></span> copyright, Inc, All rights reserved.</p>
+
+				<ul class="d-flex list-unstyled">
+					<li class="ms-3"><a href="#" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+					<li class="ms-3"><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+					<li class="ms-3"><a href="#" class="nav-link"><i class="fab fa-facebook"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
 
 
 

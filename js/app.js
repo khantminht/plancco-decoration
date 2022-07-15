@@ -1,6 +1,20 @@
 $(document).ready(function(){
 	// console.log("hi");
 
+	// Start Back to Top
+	$(".btn-backtotops").hide();
+
+	$
+	// End Back To Top
+	$(window).scroll(function(){
+		let getscrolltop = $(this).scrollTop();
+
+		if(getscrolltop >= 1300){
+			$(".btn-backtotops").fadeIn(1000);
+		}else{
+			$(".btn-backtotops").fadeOut(100);
+		}
+	})
 	// Start nav
 
 	$(".navbuttons").click(function(){
@@ -73,5 +87,12 @@ $(document).ready(function(){
 	})
 
 	// End Adv Section
+
+	// Start Footer Section
+	const getyear = $("#getyear")
+	const getfullyear = new Date().getUTCFullYear();
+
+	getyear.text(getfullyear);
+	// End Footer Section
 
 });
